@@ -26,13 +26,14 @@
   /* Navbar */
   nav {
    /* background-color: #FDFBD4; */
-    background-image: url('images/pic1.jpg');
+    /*background-image: url('../images/pic2.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
     z-index: 1000; 
+    background: #ffcc80;
   }
   
   nav ul {
@@ -63,6 +64,21 @@
     margin-bottom: 1rem;
     color: #FDFBD4;
   }
+
+  .page-content-home {
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FDFBD4;
+    padding: 2rem;
+  }
   
   .page-content {
   display: flex;
@@ -71,6 +87,7 @@
   align-items: center;
   text-align: center;
   
+  opacity: 90%;
   margin: 25px 50px;
   padding: 2rem;
   border-radius: 8px;
