@@ -8,8 +8,27 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #be7d49;
-    color: #FDFBD4;
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    background-color: #2d3b29;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .logo-img {
+    max-width: 150px;
+    height: auto;
   }
   
   a {
@@ -18,7 +37,7 @@
   }
   
   img {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     display: block;
   }
@@ -87,7 +106,7 @@
   align-items: center;
   text-align: center;
   
-  opacity: 90%;
+  opacity: 85%;
   margin: 25px 50px;
   padding: 2rem;
   border-radius: 8px;
