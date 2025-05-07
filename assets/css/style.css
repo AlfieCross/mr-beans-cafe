@@ -108,29 +108,34 @@ section p {
   padding: 2rem;
 }
 
-.page-content-home {
+.hero-image-home {
   background-image: url('../images/home.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
   min-height: 100vh;
   min-width: 100vh;
+}
+
+.hero-text-home {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  opacity: 20%;
+  align-items: center;
   text-align: center;
-  color: #FDFBD4;
+  opacity: 85%;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: #73421b;
 }
 
 .page-content-about {
   background-image: url('../images/about.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
@@ -150,10 +155,9 @@ section p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  opacity: 85%;
   padding: 2rem;
   border-radius: 8px;
-  background: #73421b;
+  background: #FDFBD4;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   min-height: 100vh;
   min-width: 100vh;
@@ -162,12 +166,13 @@ section p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  opacity: 20%;
   align-items: center;
   text-align: center;
   opacity: 85%;
   padding: 2rem;
   border-radius: 8px;
-  background: #73421b;
+  background: black;
 }
 
 .page-content h2,
@@ -278,6 +283,10 @@ footer {
     width: 100%;
     max-width: 90%;
   }
+
+  button {
+    width: 100%;
+  }
 }
 
 /* Small screens: phones */
@@ -285,7 +294,12 @@ footer {
   nav ul {
     flex-direction: column;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1rem;
+  }
+
+  .page-content {
+    height: auto;
+    width: auto;
   }
 
   .home {
@@ -307,7 +321,6 @@ footer {
 
   footer {
     position: static;
-    padding: 1.5rem 1rem;
   }
 }
 
