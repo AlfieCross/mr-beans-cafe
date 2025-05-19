@@ -109,6 +109,27 @@ nav a:hover {
   color: #ffcc80;
 }
 
+.hover-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animate::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  background-color: #73421b;;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animate:hover::after {
+  transform: scaleX(1);
+}
+
 /* =======================
    Page Sections
 ======================= */
