@@ -58,6 +58,24 @@ a {
   color: #fdfbd4;
 }
 
+.about-section {
+  background-image: url("../images/about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 2rem;
+  color: #fdfbd4;
+}
+
 
 /* =======================
    Typography
@@ -175,20 +193,6 @@ nav ul.nav-links li a {
 }
 
 /* Shared hero image styles */
-.hero-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  padding: 2rem;
-  color: #fdfbd4;
-}
 
 /* .hero-image-home {
   background-image: url("../images/home.jpg");
