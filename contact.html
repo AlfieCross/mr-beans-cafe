@@ -16,28 +16,47 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <script src="assets/js/script.js"></script>
   </head>
+
   <body>
+    <!-- Navbar -->
     <header>
-      <div class="logo">
-        <a href="index.html"
-          ><img
-            src="assets/images/logo.png"
-            alt="Mr Beans logo"
-            class="logo-img"
-        /></a>
-        <h1>Mr Beans Coffee Co.</h1>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="assets/images/logo.png"
+              alt="Mr Beans logo"
+              class="logo-img"
+            />
+          </a>
+          <h1>Mr Beans Coffee Co.</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="hover-underline hover-underline-animate">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="hover-underline hover-underline-animate">About</a>
+            </li>
+            <li>
+              <a href="category.html" class="hover-underline hover-underline-animate">Menu</a>
+            </li>
+            <li>
+              <a href="products.html" class="hover-underline hover-underline-animate">Products</a>
+            </li>
+            <li>
+              <a href="contact.html" class="hover-underline hover-underline-animate">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="hover-underline hover-underline-animate">Home</a></li>
-          <li><a href="about.html" class="hover-underline hover-underline-animate">About</a></li>
-          <li><a href="category.html" class="hover-underline hover-underline-animate">Menu</a></li>
-          <li><a href="products.html" class="hover-underline hover-underline-animate">Products</a></li>
-          <li><a href="contact.html" class="hover-underline hover-underline-animate">Contact</a></li>
-        </ul>
-      </nav>
     </header>
 
     <section class="page-content">
