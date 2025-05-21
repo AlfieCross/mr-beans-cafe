@@ -98,10 +98,12 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  
 }
 
 .logo-img {
-  height: 40px;
+  height: auto;
+  width: 50px;
   margin-right: 0.5rem;
 }
 
@@ -116,35 +118,6 @@ nav ul.nav-links li a {
   color: #73421b;
   font-weight: bold;
 }
-
-/* nav {
-  padding: 1rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  margin-right: 5%;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 2rem;
-  width: auto;
-}
-
-nav a {
-  color: #73421b;
-  font-weight: bold;
-  transition: color 0.3s;
-  display: inline;
-}
-
-nav a:hover {
-  color: #ffcc80;
-} */
-
-/* Underline Hover Effect */
 
 .hover-underline {
   position: relative;
