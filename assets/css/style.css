@@ -13,16 +13,12 @@ body {
   font-weight: 400;
   line-height: 1.6;
   height: 100%;
-  display: flex;
-  flex-direction: column;
   background-color: #73421b;
-  color: black;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 a {
@@ -48,6 +44,12 @@ h1 {
 h2 {
   margin-bottom: 1rem;
   color: #fdfbd4;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #73421b;
+  text-decoration: underline;
 }
 
 /* =======================
@@ -137,6 +139,9 @@ nav ul.nav-links li a {
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .home-section,
@@ -162,9 +167,9 @@ nav ul.nav-links li a {
   background-image: url("../images/about.jpg");
 }
 
-
 .menu {
   display: flex; 
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -180,6 +185,12 @@ nav ul.nav-links li a {
   flex-direction: column;
   float: left;
   padding: 2rem;
+  background: #fdfbd4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .menu-drinks {
@@ -189,6 +200,12 @@ nav ul.nav-links li a {
   flex-direction: column;
   padding: 2rem;
   float: right;
+  background: #fdfbd4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .menu-snacks {
@@ -198,6 +215,13 @@ nav ul.nav-links li a {
   flex-direction: column;
   padding: 2rem;
   float: left;
+  background: #fdfbd4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text {
