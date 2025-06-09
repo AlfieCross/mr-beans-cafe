@@ -173,11 +173,11 @@ nav ul.nav-links li a {
 }
 
 .home-section {
-  background-image: url("../images/home.jpg");
+  background-image: url("assets/images/home.jpg");
 }
 
 .about-section {
-  background-image: url("../images/about.jpg");
+  background-image: url("assets/images/about.jpg");
 }
 
 .menu-intro {
@@ -192,26 +192,29 @@ nav ul.nav-links li a {
   flex-direction: column;
   gap: 3rem;
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 /* shared styles for menu blocks */
 .menu-category {
   background: #fdfbd4;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 50%;
+  width: 90%;
+  max-width: 1000px;
 }
 
 /* Manual zigzag effect */
 .align-left {
-  align-self: flex-start;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .align-right {
-  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 /* =======================
