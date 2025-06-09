@@ -173,11 +173,11 @@ nav ul.nav-links li a {
 }
 
 .home-section {
-  background-image: url("assets/images/home.jpg");
+  background-image: url("/images/home.jpg");
 }
 
 .about-section {
-  background-image: url("assets/images/about.jpg");
+  background-image: url("/images/about.jpg");
 }
 
 .menu-intro {
